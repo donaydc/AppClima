@@ -1,0 +1,15 @@
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\bin\Debug\netstandard2.0\AppClima.deps.json
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\bin\Debug\netstandard2.0\AppClima.dll
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\AppClima.csprojAssemblyReference.cache
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\AppClima.csproj.CoreCompileInputs.cache
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\AppClima.AssemblyInfoInputs.cache
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\AppClima.AssemblyInfo.cs
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\bin\Debug\netstandard2.0\AppClima.pdb
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\Paginas\PaginaClima.xaml.g.cs
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\AppClima.dll
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\AppClima.pdb
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\bin\Debug\netstandard2.0\AppClima.dll.config
+D:\Documentos\Xamarin\AppClima\AppClima\AppClima\obj\Debug\netstandard2.0\AppClima.csproj.App.config

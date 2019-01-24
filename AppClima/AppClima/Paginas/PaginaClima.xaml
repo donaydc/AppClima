@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppClima.Paginas.PaginaClima">
+    <ScrollView HorizontalOptions="CenterAndExpand">
+        <RelativeLayout HorizontalOptions="CenterAndExpand">
+            <Image Source="TrueSky" Aspect="Fill"/>
+            <Grid RelativeLayout.WidthConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+            RelativeLayout.HeightConstraint=
+              "{ConstraintExpression Type=RelativeToParent, Property=Height}">
+                <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" Padding="10,2,10,10">
+                    <Label Text="AppClima" TextColor="White" FontAttributes="Bold" FontSize="28" HorizontalOptions="CenterAndExpand" Margin="4,8,4,4"/>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                        <Label Text="Ciudad:" TextColor="#84a4d6" FontSize="Large" VerticalOptions="CenterAndExpand" Margin="10,4,10,4"/>
+                        <Entry x:Name="txtCiudad" TextColor="Black" Text="Medellín" FontSize="Large" VerticalOptions="CenterAndExpand" Margin="10,4,10,4"/>
+                    </StackLayout>
+                    <Button x:Name="btnBuscar" Text="Buscar clima!" WidthRequest="185" BorderWidth="1" 
+                            Clicked="BtnBuscar_Clicked" HorizontalOptions="CenterAndExpand" BackgroundColor="#00a4ef" 
+                            Margin="4" TextColor="White"/>
+                    <StackLayout Padding="10,20,10,10" Orientation="Vertical" >
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical" Margin="10,5,10,5" HorizontalOptions="CenterAndExpand">
+                                <Label Text="Ubicación" TextColor="#0055ff" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                                <Image Source="temperature"/>
+                                <Label Text="{Binding Titulo}" TextColor="White" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>                                
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical" Margin="10,5,10,5" HorizontalOptions="CenterAndExpand">
+                                <Label Text="Temperatura" TextColor="#0055ff" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                                <Image Source="celsius"/>
+                                <Label Text="{Binding Temperatura}" TextColor="White" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>                            
+                            </StackLayout>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" >
+                            <StackLayout Orientation="Vertical" Margin="10,5,10,5" HorizontalOptions="CenterAndExpand">
+                                <Label Text="Viento" TextColor="#0090ff" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                                <Image Source="wind"/>
+                                <Label Text="{Binding Viento}" TextColor="White" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical" Margin="10,5,10,5" HorizontalOptions="CenterAndExpand">
+                                <Label Text="Humedad" TextColor="#0090ff" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                                <Image Source="drops"/>
+                                <Label Text="{Binding Humedad}" TextColor="White" FontSize="Medium" HorizontalOptions="CenterAndExpand"/>
+                            </StackLayout>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Vertical" Margin="10,5,10,5" HorizontalOptions="CenterAndExpand">
+                                <Label Text="Amanecer" TextColor="#00bbff" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                                <Image Source="earth"/>
+                                <Label Text="{Binding Amanecer}" TextColor="White" FontSize="Medium" HorizontalOptions="Center"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Vertical" Margin="10,5,10,5" HorizontalOptions="CenterAndExpand">
+                                <Label Text="Ocaso" TextColor="#00bbff" FontSize="Medium" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+                                <Image Source="night"/>
+                                <Label Text="{Binding Ocaso}" TextColor="White" FontSize="Medium" HorizontalOptions="Center"/>
+                            </StackLayout>                            
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </RelativeLayout>
+    </ScrollView>
+</ContentPage>
